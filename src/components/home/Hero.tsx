@@ -108,7 +108,7 @@ export function Hero() {
         </div>
 
         <div className="mt-8 animate-bounce-slow">
-          <a href="/eman" className="inline-block bg-roast-accent hover:bg-roast-purple text-white font-bold py-4 px-12 rounded-full transition-all transform hover:scale-110 shadow-lg shadow-roast-accent/30">
+          <a href="/offended" className="inline-block bg-roast-accent hover:bg-roast-purple text-white font-bold py-4 px-12 rounded-full transition-all transform hover:scale-110 shadow-lg shadow-roast-accent/30">
             Witness the Eman Cringe →
           </a>
         </div>
