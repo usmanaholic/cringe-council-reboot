@@ -39,8 +39,8 @@ const Index = () => {
       <Leaderboard />
    
       <HallOfShame />
-      <RoastGenerator />
-      <CommunitySubmissions />
+ 
+
       
       <footer className="bg-black/40 backdrop-blur-md py-8">
         <div className="container mx-auto px-4 text-center">

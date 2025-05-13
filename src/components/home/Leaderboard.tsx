@@ -10,12 +10,14 @@ interface LeaderboardItem {
 
 export function Leaderboard() {
   const leaderboardData: LeaderboardItem[] = [
-    { name: "Shahan", cringe: 95, awareness: 15, lPoints: 254 },
+
+    { name: "Eman", cringe: 100, awareness: 0, lPoints: 1000000000 },
     { name: "Nimra", cringe: 88, awareness: 20, lPoints: 232 },
-    { name: "Eman", cringe: 91, awareness: 10, lPoints: 221 },
+
     { name: "Shanzay", cringe: 84, awareness: 35, lPoints: 183 },
-    { name: "Sajeel", cringe: 63, awareness: 58, lPoints: 142 },
-    { name: "Mehreen", cringe: 59, awareness: 60, lPoints: 119 }
+    { name: "Shahan", cringe: 50, awareness: 15, lPoints: 100},
+    { name: "Sajeel", cringe: 40, awareness: 58, lPoints: 50 },
+    { name: "Mehreen", cringe: 10, awareness: 60, lPoints: 0 }
   ].sort((a, b) => b.lPoints - a.lPoints);
 
   return (
