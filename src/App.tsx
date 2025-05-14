@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/shahan" element={<Shahan />} />
         <Route path="/shanzay" element={<Shanzay />} />
-        <Route path="/eman" element={<Offended />} />
+        <Route path="/eman" element={<Eman />} />
         <Route path="/nimra" element={<Nimra />} />
         <Route path="/sajeel" element={<Sajeel />} />
         <Route path="/mehreen" element={<Mehreen />} />

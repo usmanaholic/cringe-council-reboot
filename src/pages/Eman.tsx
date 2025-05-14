@@ -39,6 +39,17 @@ const Eman = () => {
           <p>
             And the worst part? She thinks everyone loves her. But let’s be honest — even the group’s mute button prays for mercy when she starts typing.
           </p>
+          <p>
+            <span className=" text-white/80">🚨 A WARNING TO HUMANITY </span><br />
+Eman isn’t just annoying.
+She’s a global pandemic of secondhand embarrassment.
+If attention was oxygen, she’d be immortal — but sadly, so would our headaches.
+She’s not hated because she’s unique.
+She’s hated because she’s loud, fake, and painfully predictable.
+
+So next time you hear someone say “Eman is such a baddie” —
+remember: Even trash glitters when you throw glitter on it.
+          </p>
           <div className="bg-roast-dark/40 rounded-lg p-5 mt-4">
             <h2 className="text-2xl font-bold text-roast-accent mb-2">So to sum it up:</h2>
             <ul className="list-disc list-inside space-y-1 text-white/90">
