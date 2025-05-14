@@ -11,6 +11,7 @@ import Offended from '@/pages/Offended'
 import Shahanp from '@/pages/Shahanp'
 import Shanzayp from '@/pages/Shanzayp'
 import Emanp from '@/pages/Emanp'
+import Roshaany from '@/pages/Roshaany'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/sajeel" element={<Sajeel />} />
         <Route path="/mehreen" element={<Mehreen />} />
         <Route path="/offended" element={<Offended />} />
+        <Route path="/roshaany" element={<Roshaany />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>
