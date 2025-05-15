@@ -8,6 +8,7 @@ import shahanImg from '@/assets/avatars/shahan.jpeg'
 import shanzayImg from '@/assets/avatars/shanzay.jpeg'
 import nimraImg from '@/assets/avatars/nimra.jpeg'
 import mehreenImg from '@/assets/avatars/mehreen.jpeg'
+import roshaanyImg from '@/assets/avatars/roshaany.jpeg'
 // Add more as needed
 
 const avatars = [
@@ -17,6 +18,7 @@ const avatars = [
   { name: 'Shanzay', img: shanzayImg, roast: 'Queen of Cringe', link: '/shanzay' },
   { name: 'Nimra', img: nimraImg, roast: 'The Sass Machine', link: '/nimra' },
   { name: 'Mehreen', img: mehreenImg, roast: 'The Calm Roaster', link: '/mehreen' },
+   { name: 'Roshaany', img: roshaanyImg, roast: 'The Over Exicted Boy', link: '/roshaany' },
   // Add more as needed
 ]
 
