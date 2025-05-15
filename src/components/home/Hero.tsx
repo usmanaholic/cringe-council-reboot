@@ -112,8 +112,15 @@ export function Hero() {
             Witness the Eman Cringe →
           </a>
         </div>
+        <div className="mt-4">
+          <a
+            href="/avatar-gallery"
+            className="inline-block bg-roast-purple hover:bg-roast-accent text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-roast-purple/30"
+          >
+            View Avatar Gallery
+          </a>
+        </div>
       </div>
-
       {/* Gradient overlays */}
       <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-black to-transparent z-0" />
       <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-b from-black to-transparent z-0" />
