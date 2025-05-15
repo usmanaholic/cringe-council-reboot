@@ -12,6 +12,7 @@ import Shahanp from '@/pages/Shahanp'
 import Shanzayp from '@/pages/Shanzayp'
 import Emanp from '@/pages/Emanp'
 import Roshaany from '@/pages/Roshaany'
+import AvatarGallery from '@/pages/AvatarGallery'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/mehreen" element={<Mehreen />} />
         <Route path="/offended" element={<Offended />} />
         <Route path="/roshaany" element={<Roshaany />} />
+        <Route path="/avatar-gallery" element={<AvatarGallery />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>
