@@ -13,7 +13,7 @@ import roshaanyImg from '@/assets/avatars/roshaany.jpeg'
 
 const avatars = [
   { name: 'Eman', img: emanImg, roast: 'The Yapping YouTube Ad', link: '/eman' },
-  { name: 'Sajeel', img: sajeelImg, roast: 'The Silent Meme Lord', link: '/sajeel' },
+  { name: 'Sajeel', img: sajeelImg, roast: 'The Silent Aluuu', link: '/sajeel' },
   { name: 'Shahan', img: shahanImg, roast: 'The Spreadsheet Sultan', link: '/shahan' },
   { name: 'Shanzay', img: shanzayImg, roast: 'Queen of Cringe', link: '/shanzay' },
   { name: 'Nimra', img: nimraImg, roast: 'The Sass Machine', link: '/nimra' },
