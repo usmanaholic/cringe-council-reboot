@@ -1,4 +1,3 @@
-
 import { Hero } from '@/components/home/Hero';
 import { RoastBattle } from '@/components/home/RoastBattle';
 import { Leaderboard } from '@/components/home/Leaderboard';
@@ -42,13 +41,25 @@ const Index = () => {
  
 
       
-      <footer className="bg-black/40 backdrop-blur-md py-8">
+      <footer className="bg-black/40 backdrop-blur-md py-8 relative">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-white/60">© 2025 GC Cringe Council Roast. All rights reserved.</p>
-          <p className="text-white/40 text-sm mt-2">This site is a work of comedic fiction.</p>
+          <p className="text-white/60">
+            © 2025 GC Cringe Council Roast. All rights reserved.
+            <span className="mx-2">|</span>
+            Made with love and a little cringe by Usman – still debugging his life.
+          </p>
+          <p className="text-white/40 text-sm mt-2">
+            This site is a work of comedic fiction.
+            <span
+              className="ml-2 cursor-pointer inline-block hover:scale-125 transition"
+              title="Hidden Cringe"
+              id="usman-easter-egg"
+            >
+              🔥
+            </span>
+          </p>
         </div>
       </footer>
-      
       <Toaster />
     </div>
   );

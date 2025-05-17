@@ -13,6 +13,7 @@ import Shanzayp from '@/pages/Shanzayp'
 import Emanp from '@/pages/Emanp'
 import Roshaany from '@/pages/Roshaany'
 import AvatarGallery from '@/pages/AvatarGallery'
+import RapBattle from './pages/RapBattle'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/offended" element={<Offended />} />
         <Route path="/roshaany" element={<Roshaany />} />
         <Route path="/avatar-gallery" element={<AvatarGallery />} />
+        <Route path="/rap-battle" element={<RapBattle />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>
